@@ -129,7 +129,7 @@ dconf reset -f /org/gnome/shell/extensions/ai-tray-chat/
 
 ## License
 
-GPLv3 — see [LICENSE](LICENSE). Copyright (c) 2026 Mehdi.
+MIT — see [LICENSE](LICENSE). Copyright (c) 2026 MehdiKh.
 
 ## Credits
 

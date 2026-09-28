@@ -5,7 +5,7 @@
 	The key combination itself is edited via GNOME Settings > Keyboard.
 
 	Copyright (c) 2026, Mehdi
-	This work is distributed under GPLv3, see LICENSE for more information.
+	This work is distributed under the MIT license, see LICENSE for more information.
 ============================================================================================================= */
 
 import Adw from "gi://Adw";

@@ -4,7 +4,7 @@
 	Adds the tray indicator to the panel and wires the optional hotkey.
 
 	Copyright (c) 2026, Mehdi
-	This work is distributed under GPLv3, see LICENSE for more information.
+	This work is distributed under the MIT license, see LICENSE for more information.
 ============================================================================================================= */
 
 import Meta from "gi://Meta";

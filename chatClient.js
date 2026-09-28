@@ -4,7 +4,7 @@
 	Streaming client for OpenAI-compatible chat completions APIs (libsoup 3 + server-sent events).
 
 	Copyright (c) 2026, Mehdi
-	This work is distributed under GPLv3, see LICENSE for more information.
+	This work is distributed under the MIT license, see LICENSE for more information.
 ============================================================================================================= */
 
 import GObject from "gi://GObject";
