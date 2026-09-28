@@ -10,6 +10,11 @@ OpenAI-compatible chat completions API.
 
 Works with GNOME Shell **49** and **50** (X11 and Wayland).
 
+<p align="center">
+  <img src="screenshots/popup.png" width="540" alt="AI Tray Chat popup open from the GNOME top bar">
+  <img src="screenshots/welcome.png" width="540" alt="Welcome state of the chat popup">
+</p>
+
 ## Features
 
 - **Streaming responses** — tokens arrive live over server-sent events, no waiting for the full reply
