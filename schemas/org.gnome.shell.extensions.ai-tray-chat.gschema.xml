@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+	<schema id="org.gnome.shell.extensions.ai-tray-chat"
+		path="/org/gnome/shell/extensions/ai-tray-chat/">
+		<key name="endpoint" type="s">
+			<default>"https://ark.ap-southeast.bytepluses.com/api/coding/v3"</default>
+			<summary>API endpoint</summary>
+			<description>Base URL of an OpenAI-compatible chat completions API</description>
+		</key>
+		<key name="api-key" type="s">
+			<default>""</default>
+			<summary>API key</summary>
+			<description>API key used to authenticate to the chat API</description>
+		</key>
+		<key name="model" type="s">
+			<default>"deepseek-v4-flash"</default>
+			<summary>Model</summary>
+			<description>The model to chat with</description>
+		</key>
+		<key name="system-prompt" type="s">
+			<default>"You are a helpful assistant living in the GNOME top bar. Be clear and concise. Use markdown code fences for code."</default>
+			<summary>System prompt</summary>
+			<description>Instructions sent to the model before the conversation</description>
+		</key>
+		<key name="temperature" type="d">
+			<default>0.7</default>
+			<summary>Temperature</summary>
+			<description>Sampling temperature, higher is more creative</description>
+		</key>
+		<key name="max-tokens" type="i">
+			<default>4096</default>
+			<summary>Max tokens</summary>
+			<description>Maximum number of tokens per response</description>
+		</key>
+		<key name="history-depth" type="i">
+			<default>20</default>
+			<summary>History depth</summary>
+			<description>Number of conversation turns kept as context</description>
+		</key>
+		<key name="use-shortcut" type="b">
+			<default>true</default>
+			<summary>Hotkey</summary>
+			<description>Enable hotkey to open the chat</description>
+		</key>
+		<key name="chat-shortcut" type="as">
+			<default>[&apos;&lt;Super&gt;&lt;Alt&gt;c&apos;]</default>
+			<summary>Key combination</summary>
+			<description>Key combination to toggle the chat popup</description>
+		</key>
+	</schema>
+</schemalist>

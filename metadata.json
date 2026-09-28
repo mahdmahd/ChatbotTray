@@ -1,0 +1,10 @@
+{
+  "description": "Streaming AI chatbot living in the top bar tray, powered by any OpenAI-compatible API",
+  "name": "AI Tray Chat",
+  "shell-version": ["49", "50"],
+  "url": "https://github.com/2nv2u/gnome-shell-extension-ai-assistant",
+  "uuid": "ai-tray-chat@local.mehdi",
+  "gettext-domain": "ai-tray-chat@local.mehdi",
+  "settings-schema": "org.gnome.shell.extensions.ai-tray-chat",
+  "version": 1
+}

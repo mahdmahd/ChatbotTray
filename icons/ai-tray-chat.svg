@@ -1,0 +1,25 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <!-- AI Tray Chat panel icon — dark fill + light rim so it reads on dark and light panels -->
+  <path d="M5.375,3
+    H10.625
+    A2.875,2.875 0 0 1 13.5,5.875
+    V9.625
+    A2.875,2.875 0 0 1 10.625,12.5
+    H6.875
+    L3.125,14.25
+    L4.625,12.5
+    H5.375
+    A2.875,2.875 0 0 1 2.5,9.625
+    V5.875
+    A2.875,2.875 0 0 1 5.375,3
+    Z"
+    fill="#241f31" stroke="#f6f5f4" stroke-width="0.9" stroke-linejoin="round"/>
+  <path d="M5.375,4.125
+    L11.4375,7.625
+    L5.375,11.125
+    L4.4375,9.5
+    L7.6875,7.625
+    L4.4375,5.75
+    Z"
+    fill="#f6f5f4"/>
+</svg>
