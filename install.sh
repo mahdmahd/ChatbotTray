@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-UUID="ai-tray-chat@local.mehdi"
+UUID="ai-tray-chat@mahdmahd"
 SCHEMA_ID="org.gnome.shell.extensions.ai-tray-chat"
 SCRIPT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DEST="${HOME}/.local/share/gnome-shell/extensions/${UUID}"

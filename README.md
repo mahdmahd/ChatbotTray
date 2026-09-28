@@ -31,27 +31,27 @@ cd ChatbotTray
 ```
 
 The script compiles the settings schema, copies the extension to
-`~/.local/share/gnome-shell/extensions/ai-tray-chat@local.mehdi/`, and enables it.
+`~/.local/share/gnome-shell/extensions/ai-tray-chat@mahdmahd/`, and enables it.
 
 > **First install on Wayland:** GNOME Shell only scans new extensions at startup. Log out and
 > back in, then run:
 >
 > ```bash
-> gnome-extensions enable ai-tray-chat@local.mehdi
+> gnome-extensions enable ai-tray-chat@mahdmahd
 > ```
 
 You can also install manually without the script:
 
 ```bash
-mkdir -p ~/.local/share/gnome-shell/extensions/ai-tray-chat@local.mehdi
-cp -r metadata.json *.js schemas icons ~/.local/share/gnome-shell/extensions/ai-tray-chat@local.mehdi/
-glib-compile-schemas ~/.local/share/gnome-shell/extensions/ai-tray-chat@local.mehdi/schemas
+mkdir -p ~/.local/share/gnome-shell/extensions/ai-tray-chat@mahdmahd
+cp -r metadata.json *.js schemas icons ~/.local/share/gnome-shell/extensions/ai-tray-chat@mahdmahd/
+glib-compile-schemas ~/.local/share/gnome-shell/extensions/ai-tray-chat@mahdmahd/schemas
 ```
 
 ## Configure
 
 Open the popup from the top bar and click the **gear icon** (or run
-`gnome-extensions prefs ai-tray-chat@local.mehdi`). Under **Connection** set:
+`gnome-extensions prefs ai-tray-chat@mahdmahd`). Under **Connection** set:
 
 | Setting | What it is | Example |
 |---|---|---|
@@ -103,7 +103,7 @@ ARK_API_KEY="sk-…" ./install.sh
 ## Troubleshooting
 
 - **Icon doesn't appear after installing** — log out and back in (Wayland), then
-  `gnome-extensions enable ai-tray-chat@local.mehdi`.
+  `gnome-extensions enable ai-tray-chat@mahdmahd`.
 - **"Authentication failed (HTTP 401/403)"** — the API key is wrong or missing; set it in
   Preferences.
 - **"Not found (HTTP 404)"** — check the endpoint and model name; remember the base URL
@@ -117,8 +117,8 @@ ARK_API_KEY="sk-…" ./install.sh
 ## Uninstall
 
 ```bash
-gnome-extensions disable ai-tray-chat@local.mehdi
-rm -rf ~/.local/share/gnome-shell/extensions/ai-tray-chat@local.mehdi
+gnome-extensions disable ai-tray-chat@mahdmahd
+rm -rf ~/.local/share/gnome-shell/extensions/ai-tray-chat@mahdmahd
 ```
 
 Optionally reset saved settings:

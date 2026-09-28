@@ -3,8 +3,8 @@
   "name": "AI Tray Chat",
   "shell-version": ["49", "50"],
   "url": "https://github.com/mahdmahd/ChatbotTray",
-  "uuid": "ai-tray-chat@local.mehdi",
-  "gettext-domain": "ai-tray-chat@local.mehdi",
+  "uuid": "ai-tray-chat@mahdmahd",
+  "gettext-domain": "ai-tray-chat@mahdmahd",
   "settings-schema": "org.gnome.shell.extensions.ai-tray-chat",
   "version": 1
 }
